@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # CBNE C++ Implementation
 ## Building
+# CBNE-serial-by-quantinuum
+Original serial version of the CBNE algorithm by Quantinuum
 
 ### Boost libary
 
@@ -91,3 +94,7 @@ This builds the image from the dockerfile. To actually run the application use:
 ```
 sudo docker run -v <path to .graphml files on your machine>:/benchmarks --rm <your_image_name:tag> -p /benchmarks/<path to benchmark> <other options>
 ```
+=======
+# CBNE-serial-by-quantinuum
+ Original serial version of the CBNE algorithm by quantinuum
+>>>>>>> 733b5ebb9fdeafeb4abd96b4ba01ac13372cfa12
