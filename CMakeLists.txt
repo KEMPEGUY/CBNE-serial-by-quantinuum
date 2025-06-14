@@ -1,11 +1,12 @@
 cmake_minimum_required(VERSION 3.5.0)
 project(cbne VERSION 0.1.0 LANGUAGES C CXX)
-
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include(CTest)
 enable_testing()
 
  # either set it here or from the command line  
-set(BOOST_ROOT "/home/abhayat/boost_libraries/")
+set(BOOST_ROOT "/usr/local")
 set(Boost_USE_STATIC_LIBS OFF) 
 set(Boost_USE_MULTITHREADED ON)  
 set(Boost_USE_STATIC_RUNTIME OFF) 
